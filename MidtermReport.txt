@@ -1,0 +1,26 @@
+Learning Resource Management Portal
+
+Purpose:
+ - The purpose of our capstone project is to have a functional Learning Resource Management System that will function across major platforms such as Windows 10, Mac OS, Google Chrome, and Android.
+
+ - The Systems should be able to:
+	a. Upload, Download, Delete, and Search for files or URL references.
+	b. Ease of use across major platforms
+
+Planning Phase:
+ - Our goal is to have a functional cloud system, from available open-source materials, that will operate on cross-platform devices.
+
+- Our team attempted to build one cross platform app through Xamarin, a integrated development environment (IDE), that will allow us to test and build apps to which will function on major platforms without the need of having a certified developers account/licenses from Apple, Microsoft, and Android.
+The Xamarin developers tool is popular in doing small to medium size projects. Microsoft had the right idea but there were too many critical bugs between Mac and Android that did not have much support for pertaining to the open source project.
+
+- We needed a new approach for something functional across the major platforms. A connected open source cloud infrastructure was our next best hope.
+
+ - In order to have a running cloud system, our capstone will definitely need a functional Web Server or a Domain Name Server (DNS) to effectively implement a multi-platform environment.
+
+
+Implementation Phase:
+ - So far our main Web Server is up and running. We have successfully got a DNS. We plan to have our server connect to the major platforms through an open source app called NextCloud.
+
+ - NextCloud is an open-source client-server software used mainly for file hosting services similar to DropBox. Unlike DropBox, NextCloud users does not offer off-premises file storage hosting. This application has a lot more flexibility as the users/server administrators are able to add performance functions to the server that will allow public sharing ( to include data password protection), logging credentials, and browser extensions that can help improve collaboration, video integration, PDF conversions, calendars and to-do lists.
+
+ - Our server, mainly consisting of open-source projects , needed relevant supports to PHP, and FastCGI - a binary protocol aimed to interact and reduce overhead when interfacing between web server and Common Gateway Interface (CGI). In other words, our tools will need scalable scripting language that provides high performance without limitations of servers abilities to access features of data or services.
